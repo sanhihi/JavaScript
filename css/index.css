@@ -2,6 +2,14 @@ body {
   background-color: #ecf0f1;
 }
 
+.ppp {
+  cursor: pointer;
+}
 h1 {
-  color: #34495e;
+  color: purple;
+  transition: color 0.5s ease-in-out;
+}
+
+.plpl {
+  color: green;
 }
