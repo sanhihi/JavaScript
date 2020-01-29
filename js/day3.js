@@ -1,6 +1,6 @@
 const a = document.querySelector("h2");
 
-const colors = ["#23B08F", "#2E8BD1", "#9458B0", "#D25146"];
+const colors = ["#1abc9c", "#3498db", "#9b59b6", "#f39c12", "#e74c3c"];
 
 const superEventHandler = {
   b: function() {
@@ -17,7 +17,7 @@ const superEventHandler = {
   },
   e: function() {
     a.innerHTML = "That was a right click!";
-    a.style.color = colors[3];
+    a.style.color = colors[4];
   }
 };
 
